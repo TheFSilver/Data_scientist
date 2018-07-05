@@ -40,7 +40,6 @@ highest(my_hash) #execute la methode créee précédemment
 
 puts "Donne moi la crypto qui a la plus petite valeur"
 
-
 def lowest_rate(crypto)
   @low = crypto.keys[0] #variable qui va identifier la première clé du tableau
   @min = crypto.values[0].to_f #variable qui va chercher la valeaur associée à la première clef du hash
